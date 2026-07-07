@@ -8,7 +8,7 @@ public class ReturnStatement {
 	}
 	public static void main(String args[]) {
     	// Creating object of class
-    	ReturnStatement obj = new ReturnStatement();
+    	//ReturnStatement obj = new ReturnStatement();
     	// Function call
     	System.out.println(ReturnStatement.findSum(10, 20));
 	}
