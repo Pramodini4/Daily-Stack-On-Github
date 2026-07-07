@@ -1,4 +1,3 @@
-//package Problems;
 import java.util.Scanner;
 public class SumOfEvenOdd {
     public static void main(String args[]){
