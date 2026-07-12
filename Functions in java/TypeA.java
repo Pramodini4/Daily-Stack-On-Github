@@ -1,5 +1,5 @@
 public class TypeA {
-    public static void checkEvenOdd(){
+    public static void checkEvenOdd(){          //TypeA - No argument,no return value
         int num =  24;
         if (num % 2 == 0){
             System.out.println("Even number");

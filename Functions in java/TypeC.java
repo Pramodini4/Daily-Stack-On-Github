@@ -1,5 +1,6 @@
 public class TypeC {
-    public static void findEvenOdd(int num){
+    public static void findEvenOdd(int num){            //TypeC - Argument , no return value
+
         if(num % 2 ==0){
             System.out.println("Even number");
         }
