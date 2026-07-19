@@ -10,15 +10,15 @@ public class FindLargestNo {
         for(int i = 0; i<size; i++){
             arr[i] = sc.nextInt();
         }
-        largest = 0;
+        largest = arr[0];
         for(int i = 0; i < size ;i++){
-            for(int j = i + 1; j < size ;j++){
-                if(arr[i]<arr[j]){
-                    largest = arr[j];
-                }
+            if(arr [i] > largest){
+                largest =arr[i];
             }
         }
         System.out.println("Largest:" + largest);
+
+        sc.close();
     }
 
 }
